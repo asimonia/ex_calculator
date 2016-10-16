@@ -5,7 +5,7 @@ var add = document.getElementById("add");
 var subtract = document.getElementById("subtract");
 var multiply = document.getElementById("multiply");
 var divide = document.getElementById("divide");
-var submit = document.getElementById("submit");
+var equals = document.getElementById("equals");
 
 
 // Register event listeners with elements on page
@@ -16,28 +16,25 @@ divide.addEventListener("click", function() {alert("divide");});
 submit.addEventListener("click", function() {alert("submit");});
 
 
-/*
-  Create a function that multiplies two numbers
-  passed in as arguments. Return the product.
- */
+
+var multiplier = function (x, y) {
+  return x * y;
+}
 
 
-/*
-  Create a function that adds two numbers
-  passed in as arguments. Return the sum.
- */
+var adder = function (x, y) {
+  return x + y;
+}
 
 
-/*
-  Create a function that subtracts two numbers
-  passed in as arguments. Return the difference.
- */
+var subtracter = function (x, y) {
+  return x - y;
+}
 
 
-/*
-  Create a function that divides two numbers
-  passed in as arguments. Return the quotient.
- */
+var divider = function (x, y) {
+  return x / y;
+}
 
 
 
@@ -49,3 +46,6 @@ submit.addEventListener("click", function() {alert("submit");});
 
   Return the value of the operation.
  */
+function (x, y, operation) {
+  
+}
